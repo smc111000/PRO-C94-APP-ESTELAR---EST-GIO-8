@@ -67,7 +67,7 @@ export default class SpaceCraftsScreen extends Component {
     return (
   <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
     <View style={styles.container}>
-      {}
+      {"../assets/stars.gif"}
     </View>
   </ImageBackground>
 );
