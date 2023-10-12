@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
         margin: 10,
         marginLeft: 30,
         marginRight: 30,
-        
+         borderRadius: 10 // adicionando o borderRadius
         backgroundColor: "white"
     },
     titleBar: {
