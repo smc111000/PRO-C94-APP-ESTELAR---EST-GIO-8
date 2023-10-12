@@ -13,7 +13,6 @@ import {
 
 export default class HomeScreen extends Component {
 
-
     render() {
         return (
             <View style={styles.container}>
@@ -69,7 +68,7 @@ const styles = StyleSheet.create({
         margin: 10,
         marginLeft: 30,
         marginRight: 30,
-         borderRadius: 10 // adicionando o borderRadius
+        borderRadius: 10, // adicionando o borderRadius
         backgroundColor: "white"
     },
     titleBar: {
@@ -86,13 +85,11 @@ const styles = StyleSheet.create({
         fontSize: 25,
         fontWeight: "bold",
         color: '#D11583',
-        justifyContent: "center",
-        alignItems: "center"
     },
     routeImage: {
-        position: "relative",
-        top: -20,
-        right: -15,
+        position: "absolute", 
+        top: 10, 
+        right: 10, 
         height: 80,
         width: 80,
         resizeMode: "contain"
