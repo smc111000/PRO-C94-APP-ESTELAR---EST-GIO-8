@@ -62,7 +62,14 @@ export default class SpaceCraftsScreen extends Component {
             )
         } else {
             return (
-                <View style={styles.container}>
+                return (
+  <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
+    <View style={styles.container}>
+      {}
+    </View>
+  </ImageBackground>
+);
+
                     <SafeAreaView style={styles.droidSafeArea} />
                     <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
                         <View style={{ flex: 0.15, alignItems: 'center', justifyContent: 'center' }}>
